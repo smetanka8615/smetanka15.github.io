@@ -1,0 +1,334 @@
+/* inter-100 - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/inter-v13-cyrillic_latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-200 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/inter-v13-cyrillic_latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-300 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v13-cyrillic_latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-regular - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-500 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v13-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-600 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v13-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v13-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-800 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/inter-v13-cyrillic_latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-900 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/inter-v13-cyrillic_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+header {
+  /* height: 234px; */
+  border-radius: 0px 0px 80px 80px;
+  background: #343434;
+}
+
+header a {
+    padding: 0 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.top {
+    width: 100vw;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0px 0px 60px 60px;
+    background-color: #1D1B1B;
+}
+
+.top nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top .kontakt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 850px;
+  height: 50px;
+  flex-shrink: 0;
+  margin: 40px 0;
+  padding: 0 30px;
+  border-radius: 20px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.00);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+}
+
+.search input {
+  width: 800px;
+  border: 0px;
+  outline: none;
+  background: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+
+.sidebar{
+  width: 500px;
+  padding-left: 10px;
+}
+
+.sidebar .title p{
+  color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.sidebar .m-s{
+  display: flex;
+}
+
+.sidebar .m-s input{
+  width: 20px;
+}
+
+.sidebar .m-s p{
+  color: #7B7B7B;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 10px;
+}
+
+main{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop-list{
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+
+.tsugino-section{
+  width: 400px;
+  height: 480px;
+  border-radius: 10px;
+  border: 4px solid #6D27A5;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin: 0 50px;
+  margin-bottom: 70px;
+}
+
+.tsugino-name{
+  margin: 10px 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tsugino-line-inside{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tsugino-prace{
+  color: #000;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tsugino-btn p{
+  padding: 10px;
+  background: linear-gradient(180deg, rgba(109, 39, 165, 0.00) 0%, #6D27A5 100%);
+  border-radius: 10px;
+}
+
+.tsugino-img img{
+  margin: 20px 0;
+  width: 140px;
+}
+
+.tsugino-hark {
+  font-size: 26px;
+}
+
+.nav-pages{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-pages .n-btn{
+  text-decoration: none;
+  padding: 8px 10px;
+  border: #000 solid 1px;
+  border-radius: 50%;
+
+  color: #000;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+footer {
+  margin-top: 30px;
+  color: #FFF;
+  width: 100vw;
+  height: 336px;
+  flex-shrink: 0;
+  border-radius: 80px 80px 0px 0px;
+  background: #1D1B1B;
+}
+
+.text9 {
+  padding-top: 30px;
+  margin-left: 50px;
+  display: grid;
+}
+
+.text9 p {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text9 a {
+  text-decoration: none;
+  color: #555;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.kontakt1 {
+  padding-top: 100px;
+  text-align: right;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 30px;
+}
+
+.kontakt2 {
+  display: flex;
+  justify-content: right;
+}
+
+.kontakt2 img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.coperait {
+  border-top: #555 1px solid;
+  display: flex;
+  justify-content: space-between;
+}

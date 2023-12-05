@@ -1,0 +1,307 @@
+/* inter-100 - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/inter-v13-cyrillic_latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-200 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/inter-v13-cyrillic_latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-300 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v13-cyrillic_latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-regular - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-500 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v13-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-600 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v13-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v13-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-800 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/inter-v13-cyrillic_latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-900 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/inter-v13-cyrillic_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+header {
+  /* height: 234px; */
+  border-radius: 0px 0px 80px 80px;
+  background: #343434;
+}
+
+header a {
+    padding: 0 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.top {
+    width: 100vw;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0px 0px 60px 60px;
+    background-color: #1D1B1B;
+}
+
+.top nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top .kontakt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 850px;
+  height: 50px;
+  flex-shrink: 0;
+  margin: 40px 0;
+  padding: 0 30px;
+  border-radius: 20px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.00);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+}
+
+.search input {
+  width: 800px;
+  border: 0px;
+  outline: none;
+  background: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactus{
+  border-radius: 20px;
+  background: #4B4B4B;
+  padding: 50px;
+  margin: 30px;
+}
+
+.contactus .row{
+  display: flex;
+  justify-content: center;
+}
+
+.contactus .row .cow{
+  margin: 0 20px;
+}
+
+.contactus .row .center{
+  border: #FFF solid 1px;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 0 20px;
+}
+
+.contactus .row p.title{
+    color: #FFF;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactus .row p.caption{
+  color: #B5B5B5;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.form{
+  margin-left: 30px;
+  width: 550px;
+  display: grid;
+}
+
+.form input{
+  height: 60px;
+  margin-bottom: 40px;
+
+  border-radius: 30px;
+  border: 2px solid #000;
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  padding-left: 30px;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form textarea{
+  border-radius: 30px;
+  border: 2px solid #000;
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  resize: none;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding-left: 30px;
+}
+
+main{
+  display: flex;
+}
+
+.map {
+  margin-left: 250px;
+}
+
+footer {
+  margin-top: 30px;
+  color: #FFF;
+  width: 100vw;
+  height: 336px;
+  flex-shrink: 0;
+  border-radius: 80px 80px 0px 0px;
+  background: #1D1B1B;
+}
+
+.text9 {
+  padding-top: 30px;
+  margin-left: 50px;
+  display: grid;
+}
+
+.text9 p {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text9 a {
+  text-decoration: none;
+  color: #555;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.kontakt1 {
+  padding-top: 100px;
+  text-align: right;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 30px;
+}
+
+.kontakt2 {
+  display: flex;
+  justify-content: right;
+}
+
+.kontakt2 img {
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.coperait {
+  border-top: #555 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
